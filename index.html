@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Nguyễn Duy Khánh | Chống rác thải nhựa Vĩnh Long</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nguyễn Duy Khánh | Phòng chống rác thải nhựa</title>
 
   <style>
     body {
       margin: 0;
       font-family: Arial, Helvetica, sans-serif;
-      background: #f4f8f6;
+      background-color: #f4f8f6;
       color: #2c3e50;
       line-height: 1.7;
     }
 
     header {
       background: linear-gradient(90deg, #0b6b3a, #2e8b57);
-      color: #ffffff;
+      color: white;
       padding: 40px 20px;
       text-align: center;
     }
@@ -27,11 +27,11 @@
       text-align: center;
       position: sticky;
       top: 0;
-      z-index: 1000;
+      z-index: 999;
     }
 
     nav a {
-      color: #ffffff;
+      color: white;
       margin: 0 12px;
       text-decoration: none;
       font-weight: bold;
@@ -44,7 +44,7 @@
     section {
       max-width: 1100px;
       margin: 30px auto;
-      background: #ffffff;
+      background: white;
       padding: 30px;
       border-radius: 12px;
       box-shadow: 0 4px 10px rgba(0,0,0,0.08);
@@ -62,9 +62,9 @@
 
     .gallery {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
       gap: 16px;
-      margin-top: 15px;
+      margin-top: 20px;
     }
 
     .gallery img {
@@ -75,10 +75,10 @@
 
     .btn {
       display: inline-block;
-      margin-top: 10px;
-      padding: 10px 18px;
+      margin-top: 12px;
+      padding: 12px 20px;
       background: #2e8b57;
-      color: #ffffff;
+      color: white;
       border-radius: 6px;
       text-decoration: none;
       font-weight: bold;
@@ -115,27 +115,30 @@
 <section id="gioithieu">
   <h2>Giới thiệu chung</h2>
   <p>
-    Website học thuật này được xây dựng nhằm phục vụ học tập và nghiên cứu
-    đề tài <strong>đánh giá hiệu quả phong trào phòng, chống rác thải nhựa
-    tại tỉnh Vĩnh Long</strong>. Nội dung phản ánh cơ sở pháp lý, hoạt động
-    triển khai, mô hình thực tiễn và sản phẩm học thuật liên quan.
+    Website học thuật này được xây dựng nhằm phục vụ học tập, nghiên cứu và
+    tổng hợp minh chứng thực tiễn cho đề tài
+    <strong>đánh giá hiệu quả phong trào phòng, chống rác thải nhựa
+    tại tỉnh Vĩnh Long</strong>.
   </p>
 </section>
 
 <section id="poster">
   <h2>Poster nghiên cứu (Figma)</h2>
   <p>
-    Poster được thiết kế trên nền tảng Figma, phục vụ báo cáo môn học,
-    trình bày học thuật và bảo vệ đề cương.
+    Poster được thiết kế trên nền tảng Figma để phục vụ báo cáo môn học,
+    trình bày học thuật và bảo vệ đề cương thạc sĩ.
   </p>
 
-  <!-- THAY LINK FIGMA CỦA BẠN VÀO DÒNG DƯỚI -->
-  <a class="btn" href="https://www.figma.com/" target="_blank">
-    Xem Poster trên Figma
+  <!-- THAY LINK FIGMA THẬT CỦA BẠN VÀO ĐÂY -->
+  <a class="btn"
+     href="https://www.figma.com/file/XXXXXXXX/Poster-rac-thai-nhua"
+     target="_blank"
+     rel="noopener noreferrer">
+     👉 Xem Poster trên Figma
   </a>
 
   <p style="font-style: italic; color: #666;">
-    (Vui lòng thay đường link trên bằng link Poster Figma của bạn)
+    (Hãy đảm bảo Figma đặt chế độ: Anyone with the link → View)
   </p>
 </section>
 
@@ -143,12 +146,12 @@
   <h2>Hình ảnh minh chứng hoạt động</h2>
 
   <div class="gallery">
-    <img src="images/le-phat-dong.jpg" alt="Lễ phát động chống rác thải nhựa">
-    <img src="images/tap-huan.jpg" alt="Tập huấn truyền thông chống rác thải nhựa">
-    <img src="images/cho-dan-sinh.jpg" alt="Mô hình chợ dân sinh không rác thải nhựa">
-    <img src="images/truong-hoc.jpg" alt="Thu gom rác thải nhựa trong trường học">
-    <img src="images/sieu-thi.jpg" alt="Ngày không túi ni lông tại siêu thị">
-    <img src="images/du-lich.jpg" alt="Cơ sở du lịch giảm thiểu rác thải nhựa">
+    <img src="./images/le-phat-dong.jpg" alt="Lễ phát động chống rác thải nhựa">
+    <img src="./images/tap-huan.jpg" alt="Hoạt động tập huấn">
+    <img src="./images/cho-dan-sinh.jpg" alt="Mô hình chợ dân sinh">
+    <img src="./images/truong-hoc.jpg" alt="Mô hình trường học">
+    <img src="./images/sieu-thi.jpg" alt="Ngày không túi ni lông">
+    <img src="./images/du-lich.jpg" alt="Cơ sở du lịch xanh">
   </div>
 </section>
 
